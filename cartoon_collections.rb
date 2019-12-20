@@ -9,6 +9,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
     updated_call << call.capitalize <<"!"
   end #block
+  return updated_call
 end #method
 
 def long_planeteer_calls# code an argument here
