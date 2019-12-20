@@ -7,7 +7,8 @@ end #method
 def summon_captain_planet(planeteer_calls)
   updated_call = []
   planeteer_calls.map do |call|
-    updated_call << call.capitalize <<"!"
+    call.concat("!")
+    updated_call << call.capitalize
   end #block
   return updated_call
 end #method
